@@ -1,9 +1,7 @@
 public class Semaforo {
-    private int maxPermessi;
     private int permessiDisponibili;
 
     public Semaforo(int numThreadPermessi) {
-        this.maxPermessi = numThreadPermessi;
         this.permessiDisponibili = numThreadPermessi;
     }
 
